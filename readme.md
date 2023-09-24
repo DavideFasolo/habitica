@@ -23,15 +23,28 @@ To make it works you need to follow these steps:
 ### customizations:  
 I wrote these scripts with my system in mind, so i'm thinking about some config-file to make customization easier, but until now, you can edit "goldmon_click.py" file:  
   
-- Edit the list of purchasable items:   Look at the voices list, and add/delete/edit existing ones with this syntax:
+- #### Edit the list of purchasable items:
 
-  	setmenuvoice("Name of the reward", minutes, price)
-  |[a]()
+	Look at the voices list, and add/delete/edit existing ones with this syntax:
+
+  	`setmenuvoice("Name of the reward", minutes, price)`
+
+	Here's an example:
+
+![a](https://github.com/DavideFasolo/habitica/blob/8109a475f186482ca5fbfd25566df071a3231798/images/voices.svg)
   
-- Edit title of purchasable items popup:
+- #### Edit title of purchasable items popup:
 
-	Look at the `set_titolo` function and edit the first argument like this:   `set_titolo("yourtitle", popup_menu)`
+	Look at the `set_titolo` function and edit the first argument like this:
 
-- Edit the abort voice of the popup menu:
+	`set_titolo("yourtitle", popup_menu)`
 
-	Look for `btn_z` definition, and edit the `create_button` third argument:   `{ "nome": "abort_text" }`
+- #### Edit the abort voice of the popup menu:
+
+	Look for `btn_z` definition, and edit the `create_button` third argument:
+
+	`{ "nome": "abort_text" }`
+
+	Here's an example:
+
+![a](https://github.com/DavideFasolo/habitica/blob/bd4b09b90247c70bd62234040476dfb28b3a8b20/images/create_button.svg)
