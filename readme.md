@@ -26,6 +26,7 @@ I wrote these scripts with my system in mind, so i'm thinking about some config-
 - Edit the list of purchasable items:   Look at the voices list, and add/delete/edit existing ones with this syntax:
 
   	setmenuvoice("Name of the reward", minutes, price)
+  |[a]()
   
 - Edit title of purchasable items popup:
 
